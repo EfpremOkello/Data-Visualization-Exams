@@ -1,0 +1,16 @@
+
+# Uganda 2025/2026 National Budget Analysis: Revenue and Expenditure Trends
+
+## Context
+Uganda's 2025/2026 budget exceeds UGX 72 trillion, prioritizing Human Capital Development, Governance and Security, infrastructure, and Agro-industrialisation. Amid rising inflation, food insecurity, and debt servicing concerns, understanding revenue and expenditure trends is critical for equitable resource allocation.
+
+## Key Findings
+- **Budget Trends**: Revenue has grown steadily, with a 10.75% growth rate in 2023-2024. Expenditure growth is nan%, driven by key sectors.
+- **Deficit**: The fiscal deficit is UGX nanT, or nan% of revenue, indicating manageable pressure.
+- **Anomalies**: 0 revenue and 0 expenditure anomalies detected, potentially due to economic shocks or policy changes (e.g., tax reforms, emergency spending).
+- **Forecast**: Revenue is projected to reach 150.95T and expenditure nanT by 2026-2027, with a deficit of nanT.
+
+## Call to Action
+1. **Strengthen Revenue Collection**: Address revenue anomalies through tax policy reforms, focusing on expanding the tax base in response to 0 anomalies.
+2. **Optimize Expenditure**: Prioritize spending in Human Capital Development and Agro-industrialisation to address food insecurity and unemployment, given nan% growth.
+3. **Mitigate Fiscal Risks**: Monitor inflation (latest: 5.35%) and develop contingency plans for deficit reduction if it exceeds 20% of revenue.

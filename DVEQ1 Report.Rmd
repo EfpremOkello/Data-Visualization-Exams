@@ -1,0 +1,100 @@
+
+
+---
+title: "Uganda 2025/2026 National Budget Analysis Summary"
+date: "July 17, 2025"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
+  pdf_document:
+    toc: true
+  word_document:
+    toc: true
+    toc_depth: 3
+---
+
+Link to Github Repository: https://github.com/EfpremOkello/Data-Visualization-Exams
+
+# Overview
+
+This report summarizes the analysis of Uganda’s  National Budget, conducted using python. Designed for policy advisors and civil society, it provides insights into revenue and expenditure trends, supported by datasets, visualizations, and an interactive dashboard. The analysis is reproducible, transparent, and tailored to support data-driven decision-making.
+
+# Analysis Process
+
+The analysis leverages python to process, analyze, and visualize budget data, producing accessible outputs for stakeholders. Key steps include:
+
+- **Data Collection and Cleaning**:
+  - **Sources**: Extracted data from `Revenue_Data.xlsx` (tax heads, fiscal year amounts) and `Expense_Data.xlsx` (sectoral allocations, quarterly expenditures).
+  - **Cleaning**: Standardized fiscal years to `YYYY-YYYY`, removed missing values, and scaled amounts (billions UGX for revenue, trillions UGX for aggregates). Merged datasets to compute fiscal deficits.
+  - **Quality Checks**: Identified invalid fiscal years to ensure data reliability, with results summarized in a dedicated section.
+
+- **Exploratory Data Analysis (EDA)**:
+  - Visualized trends in revenue, expenditure, and deficits using line and bar charts.
+  - Detected anomalies with z-scores to flag outliers for further investigation.
+  - Analyzed revenue and expenditure composition to identify major contributors.
+
+- **Predictive Modeling**:
+  - Forecasted revenue, expenditure, and deficits for three years using linear regression, with R-squared values to evaluate accuracy.
+  - Saved forecasts in `budget_forecast.csv`.
+
+- **Key Metrics (KPIs)**:
+  - Calculated Deficit % of Revenue (>20% signals high fiscal risk) and Revenue Growth % to assess fiscal health.
+  - Presented KPIs in a table for quick reference.
+
+- **Visualizations and Dashboard**:
+  - Generated static visualizations, including treemaps to show proportional contributions of revenue and expenditure categories.
+  - Built an interactive Plotly dashboard with consistent colors (blue for revenue, red for expenditure, purple for deficit) and annotations for user-friendly navigation.
+
+# Key Outputs
+
+The analysis produces the following outputs, accessible to stakeholders:
+
+- **Datasets**:
+  - `clean_budget_data.csv`: Aggregated revenue and expenditure data.
+  - `revenue_composition.csv`: Breakdown of revenue by tax category.
+  - `expenditure_composition.csv`: Top sectoral expenditure allocations.
+  - `budget_forecast.csv`: Three-year projections of revenue, expenditure, and deficits.
+
+- **Visualizations**:
+  - `budget_trends.png`: Line chart comparing revenue and expenditure trends over time.
+  - `deficit_trends.png`: Bar chart showing fiscal deficits by year.
+  - `revenue_treemap.png`: Treemap illustrating revenue category contributions (in billions UGX).
+  - `expenditure_treemap.png`: Treemap highlighting top sectoral expenditures (in billions UGX).
+
+- **Interactive Dashboard**:
+  - `uganda_budget_dashboard.html`: A Plotly dashboard combining trends, deficits, and composition visualizations, with interactive features like hover details and legend toggling.
+
+- **Narrative Report**:
+  - `budget_narrative.txt`: A text summary of findings and recommendations, suitable for sharing with non-technical audiences.
+
+- **Formats**:
+  - Outputs are available in HTML, PDF, and Word formats for broad accessibility.
+
+A flowchart in the original RMarkdown file (`uganda_budget_analysis.Rmd`) details the data cleaning and integration processes, ensuring transparency.
+
+# Recommendations
+
+Based on the analysis, the following actionable recommendations are proposed:
+
+1. **Strengthen Revenue Collection**:
+   - **Policy Advisors**: Audit tax categories with anomalies (refer to `revenue_composition.csv`) and deploy digital tax systems to reduce inefficiencies and leakages.
+   - **Civil Society**: Advocate for public disclosure of revenue data to promote transparency and accountability.
+
+2. **Optimize Expenditure Allocation**:
+   - **Policy Advisors**: Prioritize funding for Human Capital Development and Agro-industrialisation, as highlighted in `expenditure_treemap.png`, to support national priorities.
+   - **Civil Society**: Host community forums to align spending with public needs, using the dashboard (`uganda_budget_dashboard.html`) to visualize allocations.
+
+3. **Mitigate Fiscal Risks**:
+   - **Policy Advisors**: Develop contingency plans for high deficits, leveraging `budget_forecast.csv` to inform sustainable debt strategies.
+   - **Civil Society**: Launch campaigns to educate the public on fiscal risks, using `deficit_trends.png` to illustrate potential economic impacts.
+
+4. **Enhance Data-Driven Decisions**:
+   - **Policy Advisors**: Invest in a national open data platform to standardize and share budget data, improving transparency.
+   - **Civil Society**: Utilize datasets and the interactive dashboard to drive evidence-based advocacy and public engagement.
+
+# Conclusion
+
+The analysis in `uganda_budget_analysis.Rmd` provides a robust framework for understanding Uganda’s 2025/2026 budget. Enhanced visualizations, including treemaps, and an interactive dashboard empower stakeholders to make informed decisions. For technical details, refer to the original RMarkdown file. To troubleshoot issues (e.g., missing files), verify file paths (`C:/Users/okell/OneDrive/Desktop/DVE/`) and ensure R packages (`readxl`, `dplyr`, `tidyr`, `ggplot2`, `plotly`, `htmlwidgets`, `treemap`) are installed.
+

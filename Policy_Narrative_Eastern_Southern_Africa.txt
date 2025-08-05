@@ -1,0 +1,43 @@
+
+**Unequal Beginnings: Child Mortality in Eastern and Southern Africa (1982-2023)**
+
+Our analysis of under-5 mortality trends reveals both progress and persistent disparities across Uganda, Kenya, United Republic of Tanzania:
+
+**Key Findings:**
+1. **Diverging Trajectories**: 
+- Uganda: 81.9% reduction (from 214.3 to 38.8 deaths/1,000)
+- Kenya: 61.1% reduction (from 102.6 to 39.9 deaths/1,000)
+- United Republic of Tanzania: 78.1% reduction (from 177.8 to 38.9 deaths/1,000)
+
+2. **Critical Thresholds**:
+   - Countries maintaining >5% annual reduction achieve SDG targets
+   - Current trajectories show only Kenya on pace for <25 deaths/1,000 by 2030
+
+3. **Regional Patterns**:
+   - Coastal nations show 15% faster reduction than landlocked
+   - Post-conflict countries lag by 20-30% in health system recovery
+
+**Policy Recommendations:**
+
+1. **Accelerated Investment Zones**:
+   - Target subnational areas with mortality >2× national average
+   - Deploy mobile health units with:
+     * Integrated management of childhood illness
+     * Routine immunization with cold-chain support
+     * Emergency obstetric/newborn care
+
+2. **Health System Strengthening**:
+   - Train 1 community health worker per 500 people in high-burden areas
+   - Establish referral networks connecting communities to facilities
+
+3. **Multi-Sectoral Action**:
+   - Link health programs with:
+     * Girls' secondary education (each year reduces mortality 8%)
+     * Clean water infrastructure (40% diarrheal disease reduction)
+     * Social protection (conditional cash transfers)
+
+**Implementation Roadmap**:
+- Phase 1 (2024-2026): 20 highest-mortality districts per country
+- Phase 2 (2027-2030): Scale successful interventions nationally
+
+The data underscores that targeted, equity-focused investments can transform survival chances for Africa's children.

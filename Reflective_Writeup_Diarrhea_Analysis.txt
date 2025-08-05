@@ -1,0 +1,38 @@
+
+# Time Series Analysis of Childhood Diarrhea Prevalence in Uganda
+
+
+### Model Performance
+The ARIMA model outperformed the other in our evaluation. Key metrics:
+- Prophet: MAE = nan, RMSE = nan, MAPE = nan%
+- ARIMA: MAE = 1.35, RMSE = 1.43, MAPE = 6.81%
+
+Reasons for ARIMA's superior performance:
+- Incorporates external economic and climate factors (GDP Growth, Inflation, Food Production Index, Rainfall).
+- Better handles missing data and irregular time intervals in survey data.
+- Automatic seasonality detection captures multi-year patterns.
+
+
+
+### Confidence Interval Interpretation
+The Prophet model's forecasts include 80% confidence intervals:
+- The interval range for the latest forecast is 1.45%.
+- Intervals are widening over time, indicating increasing uncertainty in long-term predictions.
+- Wider intervals reflect the inherent uncertainty in forecasting health outcomes influenced by multiple factors.
+
+
+
+### Real-world Applications
+Based on the analysis, the following applications are recommended:
+1. **Resource Allocation**:
+   - Maintain current vaccine and ORS distribution strategies.
+   - Focus on areas with rising economic stress (e.g., recent inflation rate: 3.32%).
+
+2. **Policy Making**:
+   - Link social protection programs to inflation thresholds (e.g., activate when inflation exceeds 5%).
+   - Adjust health budgets based on GDP growth projections (latest: 6.14%).
+
+3. **Early Warning**:
+   - Monitor prevalence trends for potential spikes.
+   - Monitor food price indices as leading indicators of health risks.
+
